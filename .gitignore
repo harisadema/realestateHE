@@ -1,0 +1,10 @@
+.sass-cache
+.idea
+node_modules
+/assets/dist/*
+/vendor
+composer.lock
+yarn.lock
+.env
+mix-manifest.json
+package-lock.json
