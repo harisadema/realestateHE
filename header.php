@@ -113,7 +113,7 @@
             <a href="#" class="mt-8 mr-2 inline-block bg-[#A27B5C] hover:bg-[#8C5A38] text-[#DCD7C9] text-lg md:text-xl font-medium py-3 px-6 rounded-2xl transition-all duration-300 shadow-md">
                 Apartments
             </a>
-            <a href="#" class="mt-8 mr-2 inline-block bg-[#A27B5C] hover:bg-[#8C5A38] text-[#DCD7C9] text-lg md:text-xl font-medium py-3 px-6 rounded-2xl transition-all duration-300 shadow-md">
+            <a href="http://realestate.test/homes/" class="mt-8 mr-2 inline-block bg-[#A27B5C] hover:bg-[#8C5A38] text-[#DCD7C9] text-lg md:text-xl font-medium py-3 px-6 rounded-2xl transition-all duration-300 shadow-md">
                 Houses
             </a>
         </div>

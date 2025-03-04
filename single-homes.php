@@ -21,14 +21,8 @@ $featured_image = get_the_post_thumbnail_url(get_the_ID(), 'full');
         }
     </style>
 </head>
-<body class="bg-gray-100">
-    <!-- Hero Section -->
-    <div class="hero flex items-center justify-center text-center text-white">
-        <div class="hero-text p-8 rounded-lg">
-            <h1 class="text-5xl font-bold">Modern Home for Sale</h1>
-            <p class="text-2xl mt-4">1367 Kasson Ct, San Jose, CA</p>
-        </div>
-    </div>
+<div class="bg-[#DCD7C9] min-h-screen text-center">
+  
 
     <div class="container mx-auto px-4 py-8">
         <!-- Property Details -->
@@ -62,7 +56,7 @@ $featured_image = get_the_post_thumbnail_url(get_the_ID(), 'full');
         <p class="text-gray-700"><span class="font-semibold">Year Built:</span> 1982</p>
         <p class="text-gray-700"><span class="font-semibold">MLS ID:</span> 156</p>
     </div>
-    <button class="mt-6 bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition duration-300">Schedule a Tour</button>
+    <button class="px-5 py-2 bg-[#A27B5C] hover:bg-[#8C5A38] text-[#DCD7C9] font-semibold rounded-lg shadow-md hover:shadow-lg hover:from-yellow-500 hover:to-yellow-700 transition-all duration-300">Schedule a Tour</button>
 </div>
 
 <!-- Property Description -->
@@ -82,15 +76,11 @@ $featured_image = get_the_post_thumbnail_url(get_the_ID(), 'full');
                 <input type="email" placeholder="Your Email" class="w-full p-2 border border-gray-300 rounded-lg">
                 <input type="tel" placeholder="Your Phone" class="w-full p-2 border border-gray-300 rounded-lg">
                 <textarea placeholder="Your Message" class="w-full p-2 border border-gray-300 rounded-lg"></textarea>
-                <button type="submit" class="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition duration-300">Send Message</button>
+                <button type="submit" class="px-5 py-2 bg-[#A27B5C] hover:bg-[#8C5A38] text-[#DCD7C9] font-semibold rounded-lg shadow-md hover:shadow-lg hover:from-yellow-500 hover:to-yellow-700 transition-all duration-300">Send Message</button>
             </form>
         </div>
     </div>
 
-    <footer class="bg-gray-800 text-white py-6 mt-12">
-        <div class="container mx-auto text-center">
-            <p>&copy; 2025 Real Estate Co. All rights reserved.</p>
-        </div>
-    </footer>
+    <?php get_footer(); ?>
 </body>
 </html>
