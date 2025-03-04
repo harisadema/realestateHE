@@ -6,13 +6,6 @@ function realestate_register_menus() {
 }
 add_action('after_setup_theme', 'realestate_register_menus');
 
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 // ✅ Enqueue Styles (Tailwind + Theme CSS)
 function realestate_enqueue_styles() {
     wp_enqueue_style('tailwind-css', 'https://cdn.jsdelivr.net/npm/tailwindcss@3.3.0/dist/tailwind.min.css');
@@ -20,14 +13,6 @@ function realestate_enqueue_styles() {
 }
 add_action('wp_enqueue_scripts', 'realestate_enqueue_styles');
 
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-
-
-?>
-=======
-=======
->>>>>>> Stashed changes
 // ✅ Register "Homes" Custom Post Type
 function custom_post_type_homes() {
     $labels = array(
@@ -315,7 +300,3 @@ function save_home_gallery_meta($post_id) {
 }
 add_action('save_post', 'save_home_gallery_meta');
 add_theme_support('post-thumbnails');
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
