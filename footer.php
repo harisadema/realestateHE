@@ -7,7 +7,7 @@
                     <span class="text-white">REAL HOMES</span>
                 </h2>
                 <p class="text-gray-400 mt-2">Simply #1 Real Estate Theme</p>
-                <img src="<?php echo get_template_directory_uri(); ?>/images/wchu1.jpg" style="width: 250px; height: 150px; padding-top: 15px;" alt="Image description" />
+                <img src="<?php echo get_template_directory_uri(); ?>/images/map.png" style="width: 250px; height: 150px; padding-top: 15px;" alt="Image description" />
 
             </div>
             
@@ -34,7 +34,7 @@
             <div>
                 <h3 class="text-lg font-semibold mb-2">Remain Updated</h3>
                 <form class="flex flex-col">
-                    <input type="email" placeholder="Your email address" class="px-4 py-2 rounded-md bg-gray-900 text-white outline-none focus:ring-2 focus:ring-orange-500" />
+                    <input type="email" placeholder="Your email address" class="px-4 py-2 rounded-md bg-[#1B1212] text-white outline-none focus:ring-2 focus:ring-orange-500" />
                     <button class="mt-2 bg-[#A27B5C] hover:bg-[#8C5A38] text-[#DCD7C9] px-4 py-2 rounded-md ">Sign up</button>
                 </form>
             </div>

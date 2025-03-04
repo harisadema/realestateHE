@@ -170,6 +170,101 @@ Choose RealestateHE for reliable service, trusted expertise, and a smooth experi
 </section>
 
 
+<section class="bg-[#F5EFE8] py-24">
+  <div class="max-w-7xl mx-auto px-6">
+    <h2 class="text-5xl font-bold text-center text-black mb-16" style="font-family: 'Playfair Display', serif; font-size: 50px;">Hear From Our Happy Clients</h2>
+    
+    
+    <div class="relative overflow-hidden">
+      <div class="flex space-x-6 animate-scroll" aria-live="polite">
+        <!-- Testimonial 1 -->
+        <div class="bg-[#DCD7C9] rounded-2xl shadow-xl p-10 min-w-[300px] max-w-[400px]">
+          <p class="text-black italic mb-8">"Finding my dream home was a smooth and delightful experience thanks to this team. Highly professional and attentive!"</p>
+          <div class="flex items-center space-x-4">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/client1.jpg" alt="Client photo" class="w-16 h-16 rounded-full object-cover border-4 border-white">
+            <div>
+              <h3 class="text-lg font-bold text-black">John Doe</h3>
+              <p class="text-sm text-gray-700">Home Buyer</p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Testimonial 2 -->
+        <div class="bg-[#DCD7C9] rounded-2xl shadow-xl p-10 min-w-[300px] max-w-[400px]">
+          <p class="text-black italic mb-8">"They helped me sell my property quickly and at a great price. Excellent service all around!"</p>
+          <div class="flex items-center space-x-4">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/client2.jpg" alt="Client photo" class="w-16 h-16 rounded-full object-cover border-4 border-white">
+            <div>
+              <h3 class="text-lg font-bold text-black">Jane Smith</h3>
+              <p class="text-sm text-gray-700">Property Seller</p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Testimonial 3 -->
+        <div class="bg-[#DCD7C9] rounded-2xl shadow-xl p-10 min-w-[300px] max-w-[400px]">
+          <p class="text-black italic mb-8">"I found a perfect rental home through this site. The agents were helpful and professional."</p>
+          <div class="flex items-center space-x-4">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/client3.jpg" alt="Client photo" class="w-16 h-16 rounded-full object-cover border-4 border-white">
+            <div>
+              <h3 class="text-lg font-bold text-black">Michael Lee</h3>
+              <p class="text-sm text-gray-700">Renter</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonial 4 -->
+        <div class="bg-[#DCD7C9] rounded-2xl shadow-xl p-10 min-w-[300px] max-w-[400px]">
+          <p class="text-black italic mb-8">"Outstanding service! They truly care about finding the perfect home for you."</p>
+          <div class="flex items-center space-x-4">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/client4.jpg" alt="Client photo" class="w-16 h-16 rounded-full object-cover border-4 border-white">
+            <div>
+              <h3 class="text-lg font-bold text-black">Sarah Johnson</h3>
+              <p class="text-sm text-gray-700">First-Time Buyer</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonial 5 -->
+        <div class="bg-[#DCD7C9] rounded-2xl shadow-xl p-10 min-w-[300px] max-w-[400px]">
+          <p class="text-black italic mb-8">"Fast, reliable, and transparent. Couldn’t have asked for better agents."</p>
+          <div class="flex items-center space-x-4">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/client5.jpg" alt="Client photo" class="w-16 h-16 rounded-full object-cover border-4 border-white">
+            <div>
+              <h3 class="text-lg font-bold text-black">Chris Wilson</h3>
+              <p class="text-sm text-gray-700">Investor</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonial 6 -->
+        <div class="bg-[#DCD7C9] rounded-2xl shadow-xl p-10 min-w-[300px] max-w-[400px]">
+          <p class="text-black italic mb-8">"Their expertise and dedication helped us secure our new home hassle-free."</p>
+          <div class="flex items-center space-x-4">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/client2.jpg" alt="Client photo" class="w-16 h-16 rounded-full object-cover border-4 border-white">
+            <div>
+              <h3 class="text-lg font-bold text-black">Emily Davis</h3>
+              <p class="text-sm text-gray-700">Homeowner</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <style>
+      @keyframes scroll {
+        from { transform: translateX(0); }
+        to { transform: translateX(-50%); }
+      }
+      .animate-scroll {
+        display: flex;
+        animation: scroll 30s linear infinite;
+        width: calc(300px * 6 + 24px * 5); /* Adjust width based on number of testimonials */
+      }
+    </style>
+  </div>
+</section>
+
 
 
 

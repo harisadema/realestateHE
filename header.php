@@ -82,10 +82,10 @@
                     ?>
                 </nav>
 
-                <!-- Login Button -->
-                <a href="<?php echo wp_login_url(); ?>" class="px-5 py-2 bg-[#A27B5C] hover:bg-[#8C5A38] text-[#DCD7C9] font-semibold rounded-full shadow-md hover:shadow-lg hover:from-yellow-500 hover:to-yellow-700 transition-all duration-300">
+                <!-- Login Button-->
+                <a href="<?php echo site_url('/login/'); ?>" class="px-5 py-2 bg-[#A27B5C] hover:bg-[#8C5A38] text-[#DCD7C9] font-semibold rounded-full shadow-md hover:shadow-lg hover:from-yellow-500 hover:to-yellow-700 transition-all duration-300">
                     Login
-                </a>
+                </a> 
             </div>
         </div>
     </header>

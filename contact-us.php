@@ -3,9 +3,10 @@
 get_header();
 ?>
 
-<section class="bg-[#DCD7C9] py-20">
+<section class="bg-[#F5EFE8] py-20">
   <div class="max-w-7xl mx-auto px-6">
-    <h2 class="text-5xl font-bold text-center text-black mb-6">Contact Us</h2>
+    <h2 class="text-5xl font-bold text-center text-black mb-6" style="font-family: 'Playfair Display', serif; font-size: 60px;">Contact Us</h2>
+    <hr class="w-16 border-t-2 border-gray-600 mx-auto my-4">
     <p class="text-center text-black text-lg mb-12">We’d love to hear from you. Let’s connect and discuss your real estate needs.</p>
     
     <div class="bg-white shadow-2xl rounded-xl p-10 max-w-4xl mx-auto">
