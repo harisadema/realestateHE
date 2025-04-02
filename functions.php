@@ -219,6 +219,7 @@ function add_home_gallery_meta_box() {
 }
 add_action('add_meta_boxes', 'add_home_gallery_meta_box');
 
+
 // ✅ Callback Function for Home Gallery Meta Box
 function home_gallery_callback($post) {
     // Get the current gallery images

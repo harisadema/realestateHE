@@ -22,9 +22,15 @@ $featured_image = get_the_post_thumbnail_url(get_the_ID(), 'full');
     </style>
 </head>
 <div class="bg-[#DCD7C9] min-h-screen text-center">
-  
+<div class="pt-[50px] pb-[50px]">
+        <h2 class="text-4xl font-bold text-gray-900 text-center" style="font-family: 'Playfair Display', serif; font-size: 50px;">
+            Property Details
+        </h2>
 
-    <div class="container mx-auto px-4 py-8">
+
+</div>
+
+     <div class="container mx-auto px-4 py-8">
         <!-- Property Details -->
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
             <!-- Image Gallery -->
@@ -47,7 +53,7 @@ $featured_image = get_the_post_thumbnail_url(get_the_ID(), 'full');
 <div class="bg-white p-6 rounded-lg shadow-lg">
     <h2 class="text-2xl font-bold text-gray-800 mb-4">Property Details</h2>
     <div class="space-y-4">
-        <p class="text-gray-700"><span class="font-semibold">Price:</span> $<?php echo esc_html(get_post_meta(get_the_ID(), '_home_price', true)); ?></p>
+        <p class="text-gray-700"><span class="font-semibold">Price:</span> <?php echo esc_html(get_post_meta(get_the_ID(), '_home_price', true)); ?></p>
         <p class="text-gray-700"><span class="font-semibold">Size:</span> <?php echo esc_html(get_post_meta(get_the_ID(), '_home_size', true)); ?> ft²</p>
         <p class="text-gray-700"><span class="font-semibold">Bedrooms:</span> <?php echo esc_html(get_post_meta(get_the_ID(), '_home_rooms', true)); ?></p>
         <p class="text-gray-700"><span class="font-semibold">Bathrooms:</span> <?php echo esc_html(get_post_meta(get_the_ID(), '_home_bathrooms', true)); ?></p>
@@ -56,7 +62,7 @@ $featured_image = get_the_post_thumbnail_url(get_the_ID(), 'full');
         <p class="text-gray-700"><span class="font-semibold">Year Built:</span> 1982</p>
         <p class="text-gray-700"><span class="font-semibold">MLS ID:</span> 156</p>
     </div>
-    <button class="px-5 py-2 bg-[#A27B5C] hover:bg-[#8C5A38] text-[#DCD7C9] font-semibold rounded-lg shadow-md hover:shadow-lg hover:from-yellow-500 hover:to-yellow-700 transition-all duration-300">Schedule a Tour</button>
+
 </div>
 
 <!-- Property Description -->
@@ -81,6 +87,7 @@ $featured_image = get_the_post_thumbnail_url(get_the_ID(), 'full');
         </div>
     </div>
 
-    <?php get_footer(); ?>
+  
 </body>
 </html>
+  <?php get_footer(); ?>
