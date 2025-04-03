@@ -17,7 +17,7 @@
                 <div class="p-6">
                     <h3 class="text-2xl font-semibold">Luxury Villa</h3>
                     <p class="text-gray-600">$1,200,000 • 4 Beds • 3 Baths</p>
-                    <a href="#" class="inline-block mt-4 text-yellow-600 font-semibold">View Details →</a>
+
                 </div>
             </div>
             <!-- Example Property Card -->
@@ -26,16 +26,16 @@
                 <div class="p-6">
                     <h3 class="text-2xl font-semibold">Modern Apartment</h3>
                     <p class="text-gray-600">$850,000 • 3 Beds • 2 Baths</p>
-                    <a href="#" class="inline-block mt-4 text-yellow-600 font-semibold">View Details →</a>
+ 
                 </div>
             </div>
             <!-- Example Property Card -->
             <div class="bg-white shadow-lg rounded-lg overflow-hidden">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/familyhome.jpg" alt="Property" class="w-full h-56 object-cover">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/shpia.jpg" alt="Property" class="w-full h-56 object-cover">
                 <div class="p-6">
                     <h3 class="text-2xl font-semibold">Family Home</h3>
                     <p class="text-gray-600">$950,000 • 4 Beds • 3 Baths</p>
-                    <a href="#" class="inline-block mt-4 text-yellow-600 font-semibold">View Details →</a>
+
                 </div>
             </div>
         </div>
